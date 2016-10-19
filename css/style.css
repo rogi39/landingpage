@@ -631,7 +631,7 @@ section.team {
 	text-align: center;
 	background-color: #fff;
 	width: 80%;
-	box-shadow: 0 2px 10px rgba(20,20,21,.2);
+	box-shadow: 0 2px 10px rgba(20,20,22,.2);
 }
 
 .team_img:hover .team_prew {
