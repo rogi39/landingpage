@@ -136,3 +136,10 @@ $(document).ready(function() {
 	});
 
 });
+
+$(window).on('load', function () {
+	 var $preloader = $('.loader'),
+        $spinner   = $preloader.find('.loader_inner');
+    $spinner.fadeOut();
+    $preloader.delay(350).fadeOut('slow');
+});
